@@ -1,0 +1,60 @@
+---
+title: Pediafy
+description: Guides, resources, and API references to help you build with Astro — the web framework for content-driven websites.
+i18nReady: true
+tableOfContents: false
+editUrl: false
+next: false
+hero:
+  title: Pediafy Docs
+  tagline: Guides, resources, and API references to help you build with Astro.
+  actions:
+    - text: Dokumentasi
+      icon: rocket
+      link: /id/install-and-setup/
+    - text: Pelajari Dokumentasi
+      icon: right-arrow
+      variant: minimal
+      link: /id/concepts/why-astro/
+---
+
+import { CardGrid } from '@astrojs/starlight/components'
+import Card from '~/components/Landing/Card.astro'
+import ListCard from '~/components/Landing/ListCard.astro'
+import SplitCard from '~/components/Landing/SplitCard.astro'
+import Discord from '~/components/Landing/Discord.astro'
+
+<CardGrid>
+  <Card title="Apa itu website" icon="laptop">
+    Explore [Astro starter themes](https://astro.build/themes/) for blogs, portfolios, docs, landing pages, SaaS, marketing, ecommerce sites, and more!
+  </Card>
+
+  <Card title="Ikuti panduan artikel kami" icon="star">
+    Complete our introductory [Build a Blog Tutorial](/id/tutorial/0-introduction/) to learn the basics and create your first Astro site.
+  </Card>
+
+  <SplitCard title="Memulai proyek baru" icon="rocket">
+    ```sh
+    # create a new project with npm
+    npm create astro@latest
+    ```
+    
+    Our [installation guide](/id/install-and-setup/) has step-by-step instructions for installing Astro using our CLI wizard, creating a new project from an existing Astro GitHub repository, and for installing Astro manually.
+  </SplitCard>
+
+  <ListCard title="Pelajari" icon="open-book">
+    - [Astro's main features](/id/concepts/why-astro/)
+    - [Islands architecture](/id/concepts/islands/)
+    - [Astro components](/id/basics/astro-components/)
+    - [The Astro template syntax](/id/reference/astro-syntax/)
+  </ListCard>
+
+  <ListCard title="Perluas" icon="puzzle">
+    - [Add integrations like React, and Tailwind](/id/guides/integrations-guide/)
+    - [Create type safe content collections](/id/guides/content-collections/)
+    - [Enhance navigation with view transitions](/id/guides/view-transitions/)
+    - [Connect a headless CMS to your project](/id/guides/cms/)
+  </ListCard>
+</CardGrid>
+
+<Discord title="Have a question or want to get involved?" cta="Join our Discord"/>
