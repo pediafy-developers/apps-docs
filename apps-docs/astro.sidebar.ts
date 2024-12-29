@@ -13,7 +13,7 @@ export const sidebar = [
 	// Start tab
 	group('start', {
 		items: [
-			'getting-started',
+			'started',
 			group('start.welcome', {
 				items: ['concepts/why-astro', 'concepts/islands', 'tutorial/0-introduction'],
 			}),

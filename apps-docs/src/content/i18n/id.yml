@@ -2,7 +2,7 @@ a11y.sectionLink: Section titled
 # Site settings
 site.title: Pediafy Dokumentasi
 # Left Sidebar
-leftSidebar.sponsoredBy: Sponsored by
+leftSidebar.sponsoredBy: Dibuat oleh
 # Footer
 footer.community: Komunitas
 footer.contribute: Kontribusi
@@ -86,22 +86,22 @@ studioHeading.label: Studio feature
 # DocSearch component strings
 docsearch.button: Pencarian
 docsearch.shortcutLabel: Press / to search
-docsearch.placeholder: Pencarian docs
+docsearch.placeholder: Pencarian
 # # The below keys and values are not set in English, but can be translated.
 # # They provide UI strings for the DocSearch modal component.
 # # SEARCH BOX
-# docsearch.modal.searchBox.resetButtonTitle: Clear the query
-# docsearch.modal.searchBox.resetButtonAriaLabel: Clear the query
-# docsearch.modal.searchBox.cancelButtonText: Cancel
-# docsearch.modal.searchBox.cancelButtonAriaLabel: Cancel
-# docsearch.modal.searchBox.searchInputLabel: Search
+docsearch.modal.searchBox.resetButtonTitle: Bersihkan
+docsearch.modal.searchBox.resetButtonAriaLabel: Bersihkan
+docsearch.modal.searchBox.cancelButtonText: Batal
+docsearch.modal.searchBox.cancelButtonAriaLabel: Batal
+docsearch.modal.searchBox.searchInputLabel: Search
 # # START SCREEN
-# docsearch.modal.startScreen.recentSearchesTitle: Recent
-# docsearch.modal.startScreen.noRecentSearchesText: No recent searches
-# docsearch.modal.startScreen.saveRecentSearchButtonTitle: Save this search
-# docsearch.modal.startScreen.removeRecentSearchButtonTitle: Remove this search from history
-# docsearch.modal.startScreen.favoriteSearchesTitle: Favorite
-# docsearch.modal.startScreen.removeFavoriteSearchButtonTitle: Remove this search from favorites
+docsearch.modal.startScreen.recentSearchesTitle: Terkini
+docsearch.modal.startScreen.noRecentSearchesText: Tidak ada pencarian
+docsearch.modal.startScreen.saveRecentSearchButtonTitle: Save this search
+docsearch.modal.startScreen.removeRecentSearchButtonTitle: Remove this search from history
+docsearch.modal.startScreen.favoriteSearchesTitle: Favorite
+docsearch.modal.startScreen.removeFavoriteSearchButtonTitle: Remove this search from favorites
 # # ERROR SCREEN
 # docsearch.modal.errorScreen.titleText: Unable to fetch results
 # docsearch.modal.errorScreen.helpText: You might want to check your network connection.
@@ -115,7 +115,7 @@ docsearch.placeholder: Pencarian docs
 # docsearch.modal.footer.closeKeyAriaLabel: Escape key
 # docsearch.modal.footer.searchByText: Search by
 # # NO RESULTS SCREEN
-# docsearch.modal.noResultsScreen.noResultsText: No results for
-# docsearch.modal.noResultsScreen.suggestedQueryText: Try searching for
-# docsearch.modal.noResultsScreen.reportMissingResultsText: Believe this query should return results?
-# docsearch.modal.noResultsScreen.reportMissingResultsLinkText: Let us know.
+docsearch.modal.noResultsScreen.noResultsText: Tidak Menemukan
+docsearch.modal.noResultsScreen.suggestedQueryText: Coba Carikembali
+docsearch.modal.noResultsScreen.reportMissingResultsText: Believe this query should return results?
+docsearch.modal.noResultsScreen.reportMissingResultsLinkText: Beritahu kami.

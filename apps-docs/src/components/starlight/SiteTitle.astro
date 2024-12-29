@@ -3,12 +3,12 @@ import logo from '~/assets/astro-logo.svg?raw';
 import docs from '~/assets/docs.svg?raw';
 import type { Props } from '@astrojs/starlight/props';
 
-const main = 'https://astro.build/';
-const self = '/' + (Astro.props.locale || 'id') + '/getting-started/';
+const main = 'https://pediafy.com/';
+const self = '/' + (Astro.props.locale || 'id') + '/started/';
 ---
 
 <span class="site-title sl-flex">
-	<a class="astro-logo" href={main} set:html={logo} aria-label="Astro" />
+	<a class="pediafy-logo" href={main} set:html={logo} aria-label="Pediafy" />
 	<a class="docs-logo" href={self} set:html={docs} aria-label="Docs" />
 </span>
 
@@ -19,7 +19,7 @@ const self = '/' + (Astro.props.locale || 'id') + '/getting-started/';
 	.site-title a {
 		display: flex;
 	}
-	.astro-logo {
+	.pediafy-logo {
 		color: var(--sl-color-white);
 	}
 	.docs-logo {

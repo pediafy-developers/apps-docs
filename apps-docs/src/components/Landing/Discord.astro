@@ -9,15 +9,15 @@ const { title, cta } = Astro.props;
 <div class="discord">
 	<h2>{title}</h2>
 	<div class="cta">
-		<Image src={HoustonLove} alt="" class="hide" />
-		<Button variant="secondary" link="https://astro.build/chat">{cta}</Button>
+		<Image src={HoustonLove} alt="pediafy" class="hide" />
+		<Button variant="secondary" link="https://discord.com/">{cta}</Button>
 	</div>
 </div>
 
 <style>
 	.discord {
 		margin: 0 auto;
-		padding: 4rem 0;
+		padding: 1rem 1;
 		text-align: center;
 	}
 
@@ -33,7 +33,7 @@ const { title, cta } = Astro.props;
 	}
 
 	.hide {
-		margin-bottom: -1rem;
+		margin-bottom: 0rem;
 		width: 5rem;
 		height: 5rem;
 	}

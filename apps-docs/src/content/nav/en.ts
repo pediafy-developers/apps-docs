@@ -1,6 +1,6 @@
 export default {
 	start: 'Start',
-	'start.welcome': 'Welcome, world!',
+	'start.welcome': 'Welcome!',
 	'start.newProject': 'Start a new project',
 	'start.config': 'Configuration',
 	'start.migrate': 'Migrate to Astro',
