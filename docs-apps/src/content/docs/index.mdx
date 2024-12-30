@@ -1,0 +1,33 @@
+---
+title: Dokumentasiku
+description: Dunia Digital dalam Satu Tempat
+template: splash
+hero:
+  tagline: Temukan panduan mudah untuk coding, strategi media sosial, dan topik digital lainnya di sini.
+  image:
+    file: ../../assets/pediafy_docs.webp
+  actions:
+    - text: Lihat Dokumentasi
+      link: /guides/example/
+      icon: open-book
+    - text: Lihat Artikel
+      link: https://starlightro.build
+      icon: rss
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+	<Card title="Media Sosial" icon="laptop">
+		Edit `src/content/docs/index.mdx` to see this page change.
+	</Card>
+	<Card title="Web Developer" icon="seti:html">
+		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	</Card>
+	<Card title="Blogger" icon="pen">
+		Edit your `sidebar` and other config in `astro.config.mjs`.
+	</Card>
+	<Card title="Game Dev" icon="puzzle">
+		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	</Card>
+</CardGrid>
